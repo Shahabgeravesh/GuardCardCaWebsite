@@ -5,6 +5,18 @@
     box-sizing: border-box;
 }
 
+/* Performance optimizations */
+img {
+    max-width: 100%;
+    height: auto;
+    loading: lazy;
+}
+
+/* Critical above-the-fold styles */
+.hero {
+    contain: layout style paint;
+}
+
 html {
     scroll-behavior: smooth;
 }
