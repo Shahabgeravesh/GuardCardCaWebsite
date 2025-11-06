@@ -365,9 +365,9 @@ body {
 }
 
 .appstore-icon {
-    width: 24px;
-    height: 24px;
+    font-size: 1.5rem;
     flex-shrink: 0;
+    color: white;
 }
 
 .appstore-text {
@@ -682,6 +682,45 @@ body {
 }
 
 
+/* FAQ Section */
+.faq {
+    padding: 5rem 0;
+    background: #f8fafc;
+}
+
+.faq-content {
+    max-width: 900px;
+    margin: 3rem auto 0;
+}
+
+.faq-item {
+    background: white;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    border-left: 4px solid #2563eb;
+    transition: all 0.3s ease;
+}
+
+.faq-item:hover {
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+}
+
+.faq-item h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #1e293b;
+    margin-bottom: 1rem;
+}
+
+.faq-item p {
+    color: #64748b;
+    line-height: 1.7;
+    font-size: 1rem;
+}
+
 /* Final CTA Section */
 .final-cta {
     background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
@@ -771,8 +810,7 @@ body {
 }
 
 .btn-large .appstore-icon {
-    width: 28px;
-    height: 28px;
+    font-size: 1.7rem;
 }
 
 .btn-large .appstore-top {
@@ -1050,8 +1088,23 @@ body {
     }
     
     .btn-large .appstore-icon {
-        width: 24px;
-        height: 24px;
+        font-size: 1.5rem;
+    }
+    
+    .faq {
+        padding: 3rem 0;
+    }
+    
+    .faq-item {
+        padding: 1.5rem;
+    }
+    
+    .faq-item h3 {
+        font-size: 1.1rem;
+    }
+    
+    .faq-item p {
+        font-size: 0.95rem;
     }
     
     .btn-large .appstore-top {
